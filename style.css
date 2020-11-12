@@ -3,3 +3,22 @@ header{
     background-size: cover;
     padding-bottom: 280px;
 }
+
+#main_titre{
+    margin-top: 200px;
+}
+
+#txt_presentation{
+    margin-right: 122px;
+}
+
+@media all and (max-width:490px){
+
+ header{
+     padding-bottom: 100px;
+ }
+ #main_titre{
+     margin-top: 0px;
+ }
+
+}
