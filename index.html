@@ -23,7 +23,7 @@
 <body>
     <header class="container-fluid">
         <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light text-white">
+            <nav class="navbar navbar-expand-md navbar-light  text-white" id="navigation">
                 <a class="navbar-brand" href="#">
                     <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30"
                         class="d-inline-block align-top" alt="" loading="lazy">
@@ -36,9 +36,9 @@
                     <div class="navbar-nav">
                         <a class="nav-link active text-white" href="#">Accueil<span class="sr-only">(current)</span></a>
                         <a class="nav-link text-white" href="#">Produits</a>
-                        <a class="nav-link text-white" href="#">Qui sommes-nous</a>
+                        <a class="nav-link text-white" href="#presentation">Qui sommes-nous</a>
                         <a class="nav-link text-white" href="#">Commentaire</a>
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white" href="#contact">Contact</a>
                     </div>
                     <p class="justify-self-end ml-auto pt-3 ">
                         +25544545465457
@@ -68,23 +68,56 @@
             <div class="row"></div>
         </div>
     </section>
-    <section class="container-fluid pt-5 bg-primary" id="section_presentation" style="height:406px">
-        <div class="container" >
-            <div class="row">
-                <div class="col -flex justify-content-center"  id="txt_presentation">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec mollis quam, gravida <br>
-                        varius metus. Pellentesque quis lobortis mauris, ac mattis tortor. Suspendisse scelerisque neque
-                        <br>
-                        ut iaculis bibendum. Vivamus ut euismod est.
-                    </p>
-                </div>
-               
+    <section class="container-fluid pt-5 bg-secondary" id="presentation">
+        <div class="container" id="section_presentation">
+
+            <div>
+                <h2>Qui sommes-nous ?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec mollis quam, gravida <br>
+                    varius metus. Pellentesque quis lobortis mauris, ac mattis tortor. Suspendisse scelerisque neque
+                    <br>
+                    ut iaculis bibendum. Vivamus ut euismod est.
+                </p>
+                <button type="button" style="margin-top: 34px;">En savoir plus</button>
             </div>
+
         </div>
     </section>
     <section class="container-fluid" id="section_carousel"></section>
-    <section class="container-fluid" id="section_contact"></section>
+
+    <section class="container-fluid" id="contact">
+        <div class="container" id="section_contact">
+            <div class="row row-cols-md-3 row-cols-1">
+                <div class="col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46146.92840500538!2d10.360358701735048!3d43.706745354438524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d5919af0f6598f%3A0xaab80fb5a78478c8!2sPise%2C%20Italie!5e0!3m2!1sfr!2sfr!4v1605161953827!5m2!1sfr!2sfr"
+                         frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0" class="h-100"></iframe>
+                </div>
+                <div class="col">
+                    <h2>Contacts</h2>
+                    <h2>Où nous trouver ?</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <span>
+                        <a href="#"><img class="mr-lg-5 mr-3" src="img/facebook.png" alt="logo facebook"></a>
+                        <a href="#"><img class="mr-lg-5 mr-3" src="img/instagram.png" alt="logo instagram"></a>
+                        <a href="#"><img class="mr-lg-5 mr-3" src="img/twitter.png" alt="logo twitter"></a>
+                        <a href="#"><img src="img/youtube.png" alt="logo youtube"></a>
+                    </span>
+                </div>
+                <div class="col d-flex flex-column justify-items-center" id="Newsletter">
+                    <h2>Newsletter</h2>
+                    <label class="mt-auto" for="email">Votre adresse email : </label>
+                    
+                    <input class="w-75 mt-auto" type="email" id="email" placeholder="Votre adresse email">
+                    
+                    <button class="w-50 mt-auto" type="submit">S'abonner</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="container-fluid"></footer>
 
 </body>
