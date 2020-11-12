@@ -13,7 +13,7 @@ header{
 }
 
 #presentation{
-     background-image: url('img/woman-4702060_1920.jpg');
+     /*background-image: url('img/woman-4702060_1920.jpg');*/
      background-position: center;
      background-attachment: fixed;
      background-size: cover;
