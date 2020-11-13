@@ -1,4 +1,12 @@
 
+h1{
+    font-family: 'Righteous', cursive;
+}
+
+h2{
+    font-family: 'Righteous', cursive;
+}
+
 .author{
     margin-top:38px;
 }
@@ -44,6 +52,7 @@ header{
      background-position: center;
      background-attachment: fixed;
      background-size: cover;
+ 
 }
 
 #section_presentation{
@@ -51,6 +60,7 @@ header{
     padding-left:122px;
     padding-right: 442px;
     padding-bottom: 88px;
+    
 }
 
 #section_contact{
@@ -133,3 +143,27 @@ header{
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zoom:hover {
+    transform: scale(1.1);
+    border: blue 1px solid;
+    z-index: 1;
+  }
