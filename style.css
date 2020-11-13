@@ -1,7 +1,8 @@
 
-h1{
+h1, h2{
     font-family: 'Righteous', cursive;
 }
+
 
 
 .author{
@@ -192,6 +193,10 @@ h2{
     margin-bottom: 15px;
 }
 
+#text_card{
+padding-left: 25px;
+padding-right: 25px;
+}
 }
 
 
