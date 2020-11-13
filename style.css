@@ -84,6 +84,13 @@ h1{
     padding-top: 50px;
 }
 
+@media all and (max-width:768px) and (min-width:500px){
+   #telephone{
+       font-size: 14px;
+       font-weight: bold;
+   }
+}
+
 @media all and (max-width:490px){
 
 h1{
