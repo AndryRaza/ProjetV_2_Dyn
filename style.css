@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .card{
     width:320px;
     height:120%;}
@@ -12,6 +13,9 @@
     border: 5px solid rgba(0, 0, 0, 1);
     border-radius: 50%; 
 }
+=======
+
+>>>>>>> bbebb2f2bfa5d5c33ece0aadbe1ef5e067cc56ac
 header{
     background-image: url('img/lg4.jpg');
     background-size: cover;
@@ -64,6 +68,28 @@ header{
      padding-top:190px;
  }
 
+}
+
+/**david**/
+
+#section_cards{
+    margin-top: -11%;
+   
+ 
+}
+
+/**redimensionnement des images cards**/
+ .card .img-fluid {
+     height: 50%;
+     } 
+    
+
+ .card{
+   border:0px;
+ }
+
+ 
+
  #section_presentation{
     padding-top: 0px;
     padding-left:0px;
@@ -105,4 +131,4 @@ header{
 #carte{
     margin-left: 0px;
 }
-}
+
