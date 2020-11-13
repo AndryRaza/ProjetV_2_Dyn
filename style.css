@@ -12,14 +12,22 @@ h2{
 }
 
 #cards{
-    margin-top: -160px;
+    margin-top: -140px;
 }
 
 .card{
     border:none;
 }
 
+header nav{
+    font-size: 17.5px;
+    font-weight: bold;
+}
 
+#telephone{
+    margin-top: 1px;
+    font-size: 25px;
+}
 
 .rond{
     height: 44px; 
@@ -44,7 +52,11 @@ header{
 }
 
 #main_titre{
-    margin-top: 200px;
+    margin-top: 102px;
+}
+
+h1{
+    font-size: 50px;
 }
 
 #presentation{
@@ -82,12 +94,21 @@ header{
  #navigation{
      background-color:grey;
      color:black;
+     margin:0;
      width:100%;
      position: absolute;
      top:0;
      left:0
  }
+ #cards{
+    padding: 0;
+}
 
+
+.card-body{
+    padding-left:25px ;
+    padding-right:25px ;
+}
  #main_titre{
      margin-top: 0px;
      padding-bottom: 142px;
@@ -95,13 +116,32 @@ header{
  }
 
  .card{
-   border:0px;
+   margin-bottom: 10px;
+    padding-top:31px;
  }
+
+ .card h3{
+     margin-bottom: 26px;
+ }
+
+ #text_card p{
+     padding-left:25px;
+     padding-right: 25px;
+ }
+
+#text_card h2{
+    font-size: 30px;
+}
+
  #section_presentation{
     padding-top: 34px;
-    padding-left:25px;
+    padding-left:0px;
     padding-right: 72px;
     padding-bottom: 35px;
+}
+
+#section_presentation p{
+    margin-bottom: 20px;
 }
 
 #section_contact{
@@ -113,6 +153,11 @@ header{
 #section_carousel{
     margin:0;
     padding:0;
+    padding-top: 40px;
+}
+
+#section_carousel ul{
+    padding:20px;
 }
 
 #Newsletter{
@@ -165,5 +210,5 @@ header{
 .zoom:hover {
     transform: scale(1.1);
     border: blue 1px solid;
-    z-index: 1;
-  }
+    z-index: 1
+}
