@@ -9,17 +9,46 @@ header{
     margin-top: 200px;
 }
 
-#txt_presentation{
-    margin-right: 122px;
+#presentation{
+     /*background-image: url('img/woman-4702060_1920.jpg');*/
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+#section_presentation{
+    padding-top: 80px;
+    padding-left:122px;
+    padding-right: 442px;
+    padding-bottom: 88px;
+}
+
+#section_contact{
+    padding-bottom: 30px;
+    padding-top: 50px;
 }
 
 @media all and (max-width:490px){
 
  header{
-     padding-bottom: 100px;
+     margin-top:56px;
+     padding-bottom: 142px;
  }
+
+
+ #navigation{
+     background-color:grey;
+     color:black;
+     width:100%;
+     position: fixed;
+     top:0;
+     left:0
+ }
+
  #main_titre{
      margin-top: 0px;
+     padding-bottom: 142px;
+     padding-top:190px;
  }
 
 }
@@ -43,4 +72,46 @@ header{
  }
 
  
+
+ #section_presentation{
+    padding-top: 0px;
+    padding-left:0px;
+    padding-right: 0px;
+    padding-bottom: 35px;
+}
+
+#section_contact{
+    padding-bottom: 30px;
+    padding-top: 34px;
+    text-align: center;
+}
+
+#section_carousel{
+    margin:0;
+    padding:0;
+}
+
+#Newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 38px;
+}
+
+#section_contact{
+    padding-top:46px;
+}
+
+#reseaux_sociaux{
+    margin-top:24px;
+    text-align: center;
+}
+
+#mentions_legales{
+    text-align: center;
+}
+
+#carte{
+    margin-left: 0px;
+}
 
