@@ -72,6 +72,7 @@ header{
  #navigation{
      background-color:grey;
      color:black;
+     margin:0;
      width:100%;
      position: absolute;
      top:0;
