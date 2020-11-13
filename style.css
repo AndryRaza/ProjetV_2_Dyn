@@ -41,6 +41,15 @@ header nav{
     border: 5px solid rgba(0, 0, 0, 1);
     border-radius: 50%; 
 }
+
+.rond2{
+    height: 44px; 
+    width: 44px; 
+    margin-left:10px;
+    background-color: blue;
+    border: 5px solid rgb(58, 49, 49);
+    border-radius: 50%; 
+}
 header{
     background-image: url('img/lg4.jpg');
     background-size: cover;
