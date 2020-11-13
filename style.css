@@ -223,6 +223,18 @@ padding-right: 25px;
     background-color: #AFAFAF;
 }
 
+#presentation{
+    background-image: url('img/woman-4702060_1920.jpg');
+    background-position-x: 70%;
+    background-position-y: 70%;
+    background-attachment: fixed;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-size: 300%;
+
+}
+
+
 
 
 /**********Animations*******/
