@@ -4,7 +4,7 @@
 }
 
 #cards{
-    margin-top: -160px;
+    margin-top: -140px;
 }
 
 .card{
@@ -77,7 +77,15 @@ header{
      top:0;
      left:0
  }
+ #cards{
+    padding: 0;
+}
 
+
+.card-body{
+    padding-left:25px ;
+    padding-right:25px ;
+}
  #main_titre{
      margin-top: 0px;
      padding-bottom: 142px;
@@ -87,6 +95,7 @@ header{
  .card{
    border:0px;
  }
+
  #section_presentation{
     padding-top: 34px;
     padding-left:25px;
@@ -103,6 +112,7 @@ header{
 #section_carousel{
     margin:0;
     padding:0;
+    padding-top: 40px;
 }
 
 #Newsletter{
