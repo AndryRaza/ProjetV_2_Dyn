@@ -1,13 +1,15 @@
 .card{
     width:320px;
     height:120%;}
-    
+
+.author{
+    margin-top:38px;
+}
 
 .rond{
     height: 44px; 
     width: 44px; 
-    margin:auto;
-    margin-top:38px;
+    margin-right:20px;
     background-color: black;
     border: 5px solid rgba(0, 0, 0, 1);
     border-radius: 50%; 
@@ -16,6 +18,14 @@ header{
     background-image: url('img/lg4.jpg');
     background-size: cover;
     padding-bottom: 280px;
+}
+
+#section_carousel ul{
+    margin-top: 34px;
+}
+
+#section_carousel ul li{
+    margin-bottom: 14px;
 }
 
 #main_titre{
@@ -65,7 +75,7 @@ header{
  }
 
  #section_presentation{
-    padding-top: 0px;
+    padding-top: 34px;
     padding-left:0px;
     padding-right: 0px;
     padding-bottom: 35px;
