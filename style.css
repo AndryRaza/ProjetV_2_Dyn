@@ -84,6 +84,9 @@ header{
      padding-top:190px;
  }
 
+ .card{
+   border:0px;
+ }
  #section_presentation{
     padding-top: 34px;
     padding-left:25px;
