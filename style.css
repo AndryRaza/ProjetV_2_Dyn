@@ -38,6 +38,7 @@ header{
      padding-bottom: 142px;
  }
 
+
  #navigation{
      background-color:grey;
      color:black;
@@ -49,6 +50,7 @@ header{
 
  #main_titre{
      margin-top: 0px;
+     padding-bottom: 142px;
      padding-top:190px;
  }
 
@@ -56,19 +58,41 @@ header{
     padding-top: 0px;
     padding-left:0px;
     padding-right: 0px;
-    padding-bottom: 88px;
+    padding-bottom: 35px;
 }
 
 #section_contact{
     padding-bottom: 30px;
-    padding-top: 20px;
+    padding-top: 34px;
     text-align: center;
+}
+
+#section_carousel{
+    margin:0;
+    padding:0;
 }
 
 #Newsletter{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 38px;
 }
 
+#section_contact{
+    padding-top:46px;
+}
+
+#reseaux_sociaux{
+    margin-top:24px;
+    text-align: center;
+}
+
+#mentions_legales{
+    text-align: center;
+}
+
+#carte{
+    margin-left: 0px;
+}
 }
